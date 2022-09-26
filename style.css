@@ -1,0 +1,151 @@
+.scores{
+
+    color:#ef4444;
+    font-size: 30px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.time{
+    font-size: 30px;
+    color:#ef4444;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quiz-info{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    margin-top: 200px;
+}
+
+.button-76 {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  border: 0;
+  border-radius: .25rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  line-height: 1.75rem; /* 28px */
+  padding: 1rem 1.25rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 50px;
+}
+
+.button-76:hover {
+  box-shadow: none;
+}
+
+.quiz-container{
+    height: 600px;
+  width: 30%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.quiz-container button {
+    display: flex;
+    width: 250px;
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px 0 10px 0px;
+    text-align: left;
+    cursor: pointer;
+
+  }
+
+.quiz-container button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.question-title{
+
+    font-size: 40px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.answer-span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.end-container{
+  height: 600px;
+  width: 30%;
+  margin:0 auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.high-score {
+  margin: 20px 0 0 40px;
+}
+
+
+
+.high-score button {
+  background-color: white;
+  color: var(--button-hover-color);
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.score-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.go-back-btn{
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    cursor: pointer;
+}
+
+.clear-btn{
+  background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    cursor: pointer;
+}
+
+.go-back-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}
+
+
+@media (min-width: 1024px) {
+  .button-76 {
+    font-size: 1.5rem; /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem; /* 32px */
+  }
+}

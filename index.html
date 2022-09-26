@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Coding Challenge</title>
+
+    </head>
+    <body>
+        <header class="header">
+        <div class="high-score">
+            <button class="high-score-button">View High Scores</button>
+        </div>
+        <div class="time-container time">
+            Time:<span class="timer">75</span>
+        </div>
+        </header>
+
+
+        <div class="quiz-info">
+            <h1>Coding Challenge</h1>
+            <p>Answer the following questions within the time limit.</br>
+            Reminder: Incorrect answers will penalize your score.
+            </p>
+            <button class="button-76" role="button">Start</button>
+        </div>
+
+        <div class="quiz-container" style="display: none;">
+            <h1 class="question-title"></h1>
+            <div class="answers">
+                <button id="answerOne"></button>
+                <button id="answerTwo"></button>
+                <button id="answerThree"></button>
+                <button id="answerFour"></button>
+            </div>
+
+            <span class="answer-span" hidden="true"></span>
+
+        </div>
+
+        <div class="end-container" style="display:none;">
+            <h1>Completed!</h1>
+            <p class="end-para"></p>
+        
+        <form>
+            <label for="initials">Initials: </label>
+            <input type="text" id="initials">
+            <input type="button" value="Submit" id="initial-submit">
+        </form>
+        </div>
+
+        <div class="score-container" style="display: none;">
+            <h1>High Scores</h1>
+            <div class="scores">
+            </div>
+            <div class="score-buttons">
+                <button class="go-back-btn">Go Back</button>
+                <button class="clear-btn">Clear High Scores</button>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+    </body>
+    
+</html>
