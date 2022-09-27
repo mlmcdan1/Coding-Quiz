@@ -8,4 +8,5 @@ by JavaScript code that you write.
 ## Deployed Link
 https://mlmcdan1.github.io/Coding-Quiz/
 
+# Screenshot
 ![Screenshot](codingQuiz.gif)
